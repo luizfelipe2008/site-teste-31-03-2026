@@ -1,13 +1,33 @@
 body {
   text-align: center;
-  font-family: Arial;
-  background-color: #000000;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #f5f7fa, #e4ecf7);
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
-  color: blue;
+  color: #2c3e50;
+  margin-top: 40px;
+  font-size: 2.5rem;
 }
 
 button {
-  padding: 10px;
+  padding: 12px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #3498db;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.98);
 }
